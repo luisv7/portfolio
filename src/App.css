@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-top: 70px;
+}
+
+footer{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 60px;
+  padding: 1rem;
+  background-color: #c6c6c6;
+}
+
+.img-banner{
+  height: auto;
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+ /* CONTAINER */
+.banner-container{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  object-fit: cover;
+}
+.banner{
+  max-height: 500px;
+  width: auto;
+}
+.row-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.row-text-content{
+  padding: 1.7rem;
+  color: #000;
+}
+
+.align-center{
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+/* Navigation */
+.social{
+  display: flex;
+}
+
+/* PROFILE */
+.profile-container{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.avatar-img{
+  border: 7px solid white;
+}
+
+/* BANNER */
+.profile-background{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #93a6a7;
   color: white;
+  padding: 2.5rem;
+}
+.hello-text{
+  display: flex;
+  justify-content: left;
+  font-size: 3rem;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+/* CARDS */
+.projects-container{
+  margin: 1rem 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-position{
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+.card{
+  margin: 1rem;
 }
