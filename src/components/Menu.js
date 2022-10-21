@@ -18,7 +18,7 @@ const MenuBar = () => {
     })
 
     return (
-        <AppBar primary='main' sx={{ height: '70px', backgroundColor: "#fff"}}>
+        <AppBar primary='main' sx={{ height: '60px', backgroundColor: "#fff"}}>
             <Toolbar sx={{ display: "flex", justifyContent: "space-between"}}>
                 <>
                     <IconButton 
@@ -54,7 +54,7 @@ const MenuBar = () => {
                         <List>
                         {['Project 1', 'Project 2', 'Project 3', 'Resume'].map((text) => (
                             <ListItem key={text} disablePadding>
-                                <ListItemButton href={"/" + text.replace(' ', '')}>
+                                <ListItemButton href={"/" + text.replace(' ', '').toLowerCase()}>
                                         <ListItemText primary={text} />
                                 </ListItemButton>
                             </ListItem>
