@@ -11,11 +11,11 @@ const Main = () => {
     return (
         <main>
             <Routes>
-                <Route path="https://ephemeral-ganache-fcd403.netlify.app/" element={<Home />} />
-                <Route path="https://ephemeral-ganache-fcd403.netlify.app/project1" element={<Project1 />} />
-                <Route path="https://ephemeral-ganache-fcd403.netlify.app/project2" element={<Project2 />} />
-                <Route path="https://ephemeral-ganache-fcd403.netlify.app/project3" element={<Project3 />} />
-                <Route path="https://ephemeral-ganache-fcd403.netlify.app/resume" element={<Resume />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/project1" element={<Project1 />} />
+                <Route path="/project2" element={<Project2 />} />
+                <Route path="/project3" element={<Project3 />} />
+                <Route path="/resume" element={<Resume />} />
             </Routes>
         </main>
     )
