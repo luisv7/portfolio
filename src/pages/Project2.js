@@ -64,8 +64,7 @@ const Project2 = () => {
                     </Typography>
             </Container>
         </>
-    )   
-        
+    )     
 }
 
 export default Project2;
