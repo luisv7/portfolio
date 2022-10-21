@@ -8,7 +8,7 @@ main{
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
-  margin-top: 60px;
+  margin-top: 57px;
 }
 
 footer{
@@ -23,42 +23,27 @@ footer{
   height: auto;
   width: 100%;
   max-width: 700px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 1rem;
 }
 
  /* CONTAINER */
-.banner-container{
-  display: flex;
-  justify-content: center;
-  height: 500px;
-  object-fit: cover;
-}
 .banner{
   max-height: 500px;
   width: auto;
 }
+
+.center-container{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+}
+
 .row-container{
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
-  flex-direction: column;
-  margin: 1rem 0;
-}
-.row-text-content{
-  padding: 1.7rem;
-  color: #000;
-}
-
-.align-center{
-  text-align: center;
-  margin: 1.5rem 0;
-}
-
-/* Navigation */
-.social{
-  display: flex;
 }
 
 /* PROFILE */
@@ -92,18 +77,7 @@ footer{
 }
 
 /* CARDS */
-.projects-container{
-  margin: 1rem 0;
-}
-.cards-container{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .image-position{
   object-fit: cover;
   object-position: 0% 0%;
-}
-.card{
-  margin: 1rem;
 }
