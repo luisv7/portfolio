@@ -222,7 +222,7 @@ const Home = () => {
                 </Grid>
                 <Grid item xs={12} md={4} className="row-container">
                     <Card sx={{ maxWidth: 600, m: "0.5rem" }}>
-                        <Link href="/project3">
+                        <Link href="/project4">
                             <CardMedia
                                 component="img"
                                 height="190"
