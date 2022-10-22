@@ -7,4 +7,8 @@
 - CSS
 - Javascript
 - React
+- Material UI
+
+## Future Enhancements
+- Dark Mode
 

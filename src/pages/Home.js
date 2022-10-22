@@ -220,6 +220,43 @@ const Home = () => {
                         </CardActions>
                     </Card>
                 </Grid>
+                <Grid item xs={12} md={4} className="row-container">
+                    <Card sx={{ maxWidth: 600, m: "0.5rem" }}>
+                        <Link href="/project3">
+                            <CardMedia
+                                component="img"
+                                height="190"
+                                image="https://i.ibb.co/yfSWHLh/schoolpy.png"
+                                alt="Project 4 - Schoolpy Screenshot"
+                                className="image-position"
+                            />
+                        </Link>
+                        <CardContent>
+                            <Typography
+                                gutterBottom
+                                variant="subtitle1"
+                                component="h3"
+                                sx={{ fontWeight: "600" }}
+                            >
+                                Schoolpy - Project 4
+                            </Typography>
+                            <Typography
+                                variant="body1"
+                                color="text.secondary"
+                                sx={{ height: "110px" }}
+                            >
+                                SchoolPy is a learning management platform that allows students and teachers to be organized.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Link href="/project4" underline="none">
+                                <Button variant="outlined" size="small">
+                                    Learn More
+                                </Button>
+                            </Link>
+                        </CardActions>
+                    </Card>
+                </Grid>
             </Grid>
             <Container maxWidth="xl" className="center-container" sx={{m: "1rem 0"}}>
                 <Typography

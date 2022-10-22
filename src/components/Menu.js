@@ -78,7 +78,7 @@ const MenuBar = () => {
             <Drawer anchor="left" open={navToggle} onClose={handleNavClick()}>
                 <Box sx={{ width: 200 }}>
                     <List>
-                        {["Project 1", "Project 2", "Project 3", "Resume"].map(
+                        {["Project 1", "Project 2", "Project 3", "Project 4", "Resume"].map(
                             (text) => (
                                 <ListItem key={text} disablePadding>
                                     <ListItemButton
