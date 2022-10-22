@@ -49,7 +49,7 @@ const Home = () => {
                             className="avatar-img"
                             sx={{ width: 270, height: 270 }}
                         />
-                        <Link href="/resume">
+                        <Link href="/resume" underline="none">
                             <Button
                                 variant="contained"
                                 size="medium"
@@ -58,14 +58,23 @@ const Home = () => {
                                 View Resume
                             </Button>
                         </Link>
+                        <Link href={require("../docs/Resume-nd.pdf")} target="blank" underline="none">
+                            <Button
+                                variant="contained"
+                                size="medium"
+                                sx={{ mt: "1rem" }}
+                            >
+                                Download Resume
+                            </Button>
+                        </Link>
                     </Grid>
                 </Grid>
             </Container>
             <Typography
-                variant="h4"
-                component="h3"
+                variant="h5"
+                component="h4"
                 align="center"
-                sx={{ mt: "1.5rem" }}
+                sx={{ mt: "1.5rem", fontWeight: "700" }}
             >
                 Projects
             </Typography>
@@ -212,12 +221,12 @@ const Home = () => {
                     </Card>
                 </Grid>
             </Grid>
-            <Container maxWidth="xl" className="center-container">
+            <Container maxWidth="xl" className="center-container" sx={{m: "1rem 0"}}>
                 <Typography
-                    variant="h4"
-                    component="h3"
+                    component="h4"
+                    variant="h5"
                     align="center"
-                    sx={{ m: "1rem 0" }}
+                    sx={{fontWeight: "700" }}
                 >
                     Technologies Learned
                 </Typography>
