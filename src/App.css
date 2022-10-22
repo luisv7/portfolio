@@ -22,8 +22,7 @@ footer{
 .img-banner{
   height: auto;
   width: 100%;
-  max-width: 700px;
-  margin: 1rem auto;
+  max-width: 800px;
   padding: 1rem;
 }
 
@@ -68,12 +67,6 @@ footer{
   background-color: #93a6a7;
   color: white;
   padding: 2.5rem;
-}
-.hello-text{
-  display: flex;
-  justify-content: left;
-  font-size: 3rem;
-  text-align: left;
 }
 
 /* CARDS */

@@ -71,10 +71,10 @@ const Home = () => {
                 </Grid>
             </Container>
             <Typography
-                variant="h4"
-                component="h3"
+                variant="h5"
+                component="h4"
                 align="center"
-                sx={{ mt: "1.5rem" }}
+                sx={{ mt: "1.5rem", fontWeight: "700" }}
             >
                 Projects
             </Typography>
@@ -221,12 +221,12 @@ const Home = () => {
                     </Card>
                 </Grid>
             </Grid>
-            <Container maxWidth="xl" className="center-container">
+            <Container maxWidth="xl" className="center-container" sx={{m: "1rem 0"}}>
                 <Typography
-                    variant="h4"
-                    component="h3"
+                    component="h4"
+                    variant="h5"
                     align="center"
-                    sx={{ m: "1rem 0" }}
+                    sx={{fontWeight: "700" }}
                 >
                     Technologies Learned
                 </Typography>
