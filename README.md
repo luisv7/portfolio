@@ -5,5 +5,6 @@
 ## Technologies Used
 - HTML
 - CSS
+- Javascript
 - React
 
