@@ -49,13 +49,22 @@ const Home = () => {
                             className="avatar-img"
                             sx={{ width: 270, height: 270 }}
                         />
-                        <Link href="/resume">
+                        <Link href="/resume" underline="none">
                             <Button
                                 variant="contained"
                                 size="medium"
                                 sx={{ mt: "1rem" }}
                             >
                                 View Resume
+                            </Button>
+                        </Link>
+                        <Link href={require("../docs/Resume-nd.pdf")} target="blank" underline="none">
+                            <Button
+                                variant="contained"
+                                size="medium"
+                                sx={{ mt: "1rem" }}
+                            >
+                                Download Resume
                             </Button>
                         </Link>
                     </Grid>
