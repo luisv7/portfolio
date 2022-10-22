@@ -1,6 +1,6 @@
 # Portfolio - Luis Villarreal
 
-[View Portfolio](https://ephemeral-ganache-fcd403.netlify.app/)
+[View Portfolio](https://luisvillarreal.netlify.app/)
 
 ## Technologies Used
 - HTML
