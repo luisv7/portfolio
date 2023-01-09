@@ -32,14 +32,9 @@ const Home = () => {
                             component="p"
                             variant="subtitle1"
                             align="center"
+                            mx={{margin: "1rem"}}
                         >
-                            I’m a tech enthusiast who loves learning new
-                            technologies and helping others. Experience building
-                            eCommerce websites. Business and analytical mindset
-                            with a focus on excellence in customer experience.
-                            During my free time, I like to enhance my skills
-                            involving computer science, IOS Development, and
-                            graphic design.
+                            As a tech enthusiast, I am always seeking out new and exciting ways to use my skills and knowledge to solve problems. I have extensive experience in building eCommerce websites delivering exceptional customer experiences. In my free time, I enjoy staying up-to-date on the latest technologies, particularly in computer science, iOS development, and graphic design. I am also passionate about helping others and sharing my knowledge and skills with those around me.
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={5} className="center-container">
