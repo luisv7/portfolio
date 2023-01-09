@@ -6,13 +6,14 @@ import {
     Toolbar,
     Drawer,
     List,
+    Link,
     ListItem,
     ListItemButton,
     ListItemText,
-    Link,
     Container,
     Typography,
 } from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -39,7 +40,7 @@ const MenuBar = () => {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Link href="/" underline="none" sx={{ color: "black" }}>
+                    <Link component={RouterLink} to="/" underline="none" sx={{ color: "black" }}>
                         <Typography
                             variant="subtitle1"
                             component="h1"
@@ -60,6 +61,7 @@ const MenuBar = () => {
                     <Link
                         href="https://github.com/luisv7"
                         sx={{ color: "black" }}
+                        target="_blank"
                     >
                         <GitHubIcon
                             sx={{ margin: "0 0.5rem", fontSize: "32px" }}
@@ -68,6 +70,7 @@ const MenuBar = () => {
                     <Link
                         href="https://www.linkedin.com/in/luis-villarreal7/"
                         sx={{ color: "black" }}
+                        target="_blank"
                     >
                         <LinkedInIcon
                             sx={{ margin: "0 0.5rem", fontSize: "32px" }}

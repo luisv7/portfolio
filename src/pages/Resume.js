@@ -25,11 +25,7 @@ const Resume = () => {
                 align="center"
                 sx={{ mt: "1rem" }}
             >
-                I’m a tech enthusiast who loves learning new technologies and
-                helping others. Experience building eCommerce websites. Business
-                and analytical mindset with a focus on excellence in customer
-                experience. I like to enhance my skills in computer science, IOS
-                Development, and graphic design.
+                As a tech enthusiast, I am always seeking out new and exciting ways to use my skills and knowledge to solve problems. I have extensive experience in building eCommerce websites delivering exceptional customer experiences. In my free time, I enjoy staying up-to-date on the latest technologies, particularly in computer science, iOS development, and graphic design. I am also passionate about helping others and sharing my knowledge and skills with those around me.
             </Typography>
             <Stack spacing={1} alignItems="center" sx={{ m: "1rem 0" }}>
                 <Typography component="h3" variant="p">
@@ -102,10 +98,11 @@ const Resume = () => {
                 </Typography>
                 <Typography component="p" variant="p" sx={{mt: "1rem"}}>
                     <ul>
-                        <li>Building a strategy, planning, developing, and executing business plans.</li>
-                        <li>Monitoring performance analytics, website traffic, and product performance; and duties such as networking for the company, developing business strategies, creating marketing plans, setting up processes and systems, and growing a sustainable organization.</li>
-                        <li>Developed financial plans to determine break-even points. Ensure long-term solvency, and set budgets as the company grows.</li>
-                        <li>Create, plan, design, and maintain an e-commerce website.</li>
+                        <li>Manage all aspects of business operations, including financial management, marketing, and customer service.</li>
+                        <li>Improved efficiency and profitability through the implementation of new systems and processes.</li>
+                        <li>Created and implemented strategies for business growth and expansion.</li>
+                        <li>Demonstrated the ability to adapt and respond to changes in the market and industry.</li>
+                        <li>Successfully developed, designed, and launched www.laexpressdistribution.com</li>
                     </ul>
                 </Typography>
                 <Typography component="p" variant="p" sx={{ mt: "1rem" }}>
@@ -114,7 +111,7 @@ const Resume = () => {
                     www.laexpressdistribution.com
                     </Link>
                 </Typography>
-                <Link href={require("../docs/Resume-nd.pdf")} target="blank" underline="none">
+                <Link href={require("../docs/main-resume-nn.pdf")} target="blank" underline="none">
                     <Button
                         variant="contained"
                         size="medium"
