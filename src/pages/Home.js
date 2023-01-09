@@ -53,7 +53,7 @@ const Home = () => {
                                 View Resume
                             </Button>
                         </Link>
-                        <Link href={require("../docs/Resume-nd.pdf")} target="blank" underline="none">
+                        <Link href={require("../docs/main-resume-nn.pdf")} target="blank" underline="none">
                             <Button
                                 variant="contained"
                                 size="medium"
