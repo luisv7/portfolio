@@ -47,7 +47,7 @@ const Project3 = () => {
                 </Typography>
                 <Container align="center" sx={{ m: "1rem" }}>
                     <Link
-                        href="https://sensational-blancmange-3f973b.netlify.app/"
+                        href="https://ecomdash-store.netlify.app"
                         underline="none"
                         m={2}
                         target="_blank"

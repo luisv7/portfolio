@@ -47,7 +47,7 @@ const Project2 = () => {
                 </Typography>
                 <Container align="center" sx={{ m: "1rem" }}>
                     <Link
-                        href="https://tableres-manager.herokuapp.com/guests"
+                        href="https://tableres-manager.onrender.com/guests/view-all?"
                         underline="none"
                         m={2}
                         target="_blank"
