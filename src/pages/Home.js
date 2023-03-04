@@ -40,7 +40,7 @@ const Home = () => {
                     <Grid item xs={12} md={5} className="center-container">
                         <Avatar
                             alt="Luis Villarreal Profile Picture"
-                            src="https://i.ibb.co/fYZRtYH/profile-picture.jpg"
+                            src={require("../images/profile-picture.jpg")}
                             className="avatar-img"
                             sx={{ width: 270, height: 270 }}
                         />
@@ -53,7 +53,7 @@ const Home = () => {
                                 View Resume
                             </Button>
                         </Link>
-                        <Link href={require("../docs/main-resume-nn.pdf")} target="blank" underline="none">
+                        <Link href={require("../docs/resume-nn.docx")} target="blank" underline="none">
                             <Button
                                 variant="contained"
                                 size="medium"
@@ -154,7 +154,7 @@ const Home = () => {
                         </CardContent>
                         <CardActions>
                             <Link
-                                href="https://tableres-manager.herokuapp.com/guests"
+                                href="https://tableres-manager.onrender.com/guests/view-all?"
                                 underline="none"
                             >
                                 <Button variant="contained" size="small">
@@ -200,7 +200,7 @@ const Home = () => {
                         </CardContent>
                         <CardActions>
                             <Link
-                                href="https://sensational-blancmange-3f973b.netlify.app"
+                                href="https://ecomdash-store.netlify.app"
                                 underline="none"
                             >
                                 <Button variant="contained" size="small">

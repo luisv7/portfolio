@@ -111,7 +111,7 @@ const Resume = () => {
                     www.laexpressdistribution.com
                     </Link>
                 </Typography>
-                <Link href={require("../docs/main-resume-nn.pdf")} target="blank" underline="none">
+                <Link href={require("../docs/resume-nn.pdf")} target="blank" underline="none">
                     <Button
                         variant="contained"
                         size="medium"
